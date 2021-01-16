@@ -10,6 +10,17 @@ head {
   color: #226089;
 }
 
+.banner {
+  position: relative;
+  z-index: -1;
+  margin: -5px;
+  height: 360px;
+  background: #dddddd center center url('https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-size: cover;
+  filter: blur(3px);
+}
+/* https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5720/restaurants-list-cover
+https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 */
 .search-bar .search-bar-outer {
   margin: 0 auto;
   max-width: 680px;
@@ -17,7 +28,7 @@ head {
   border-radius: 8px;
   padding: 20px 30px;
   border: 0;
-  margin-top: -20px;
+  margin-top: -60px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,12 +53,6 @@ head {
 
 .card {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.2);
-  position: relative;
-  
 }
 
 .card img{
@@ -95,3 +100,11 @@ head {
   }
   
 }
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+  
+}
+
