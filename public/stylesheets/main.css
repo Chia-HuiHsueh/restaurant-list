@@ -1,4 +1,6 @@
-header {
+/* 保留main的css其他分開 */
+
+head {
   overflow: hidden;
 }
 
@@ -54,6 +56,16 @@ header {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
+.card img{
+  height: 180px;
+}
+
+.card-title{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
 .restaurant-category {
   color: #666666;
   font-size: 0.8rem;
@@ -68,8 +80,24 @@ header {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width: 992px) {
+  
+  .card img{
+    height: 115px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  
   .restaurant-show-title {
     font-size: 2rem;
   }
+}
+
+@media screen and (max-width: 575px) {
+  
+  .card img{
+    height: auto;
+  }
+  
 }
