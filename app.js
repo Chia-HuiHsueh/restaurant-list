@@ -17,7 +17,11 @@ app.get('/', (req, res) => {
 app.get('/search', (req, res) => {
   const keyword = req.query.keyword
   const restaurants = restaurantList.results.filter(restaurant => { return restaurant.name.toLocaleLowerCase().includes(keyword.toLocaleLowerCase()) })
-  res.render('index', { restaurants: restaurants, keyword: keyword })
+
+  if (restaurants.length === 0) {
+    res.render('error', { keyword: keyword })
+  } else { res.render('index', { restaurants: restaurants, keyword: keyword }) }
+
 })
 app.get('/restaurants/:restaurant_id', (req, res) => {
   const restaurant = restaurantList.results.find(restaurant => restaurant.id.toString() === req.params.restaurant_id)
