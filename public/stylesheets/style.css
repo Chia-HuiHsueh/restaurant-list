@@ -19,8 +19,7 @@ head {
   background-size: cover;
   filter: blur(3px);
 }
-/* https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5720/restaurants-list-cover
-https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 */
+
 .search-bar .search-bar-outer {
   margin: 0 auto;
   max-width: 680px;
