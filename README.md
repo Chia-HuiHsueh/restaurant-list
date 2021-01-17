@@ -41,7 +41,7 @@ cd restaurant-list
 ```
 
 ## Environment SetUp - 環境建置
-Visual Studio Code - 開發環境
-Node.js - JavaScript 執行環境
-Express - 應用程式架構
-Express-Handlebars - 模板引擎
+* Visual Studio Code - 開發環境
+* Node.js - JavaScript 執行環境
+* Express - 應用程式架構
+* Express-Handlebars - 模板引擎
