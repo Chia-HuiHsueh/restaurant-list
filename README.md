@@ -10,8 +10,8 @@
 * 使用者輸入搜尋關鍵字，若無搜尋結果則跳出提示。
 * 使用者可以使用美食類別查詢餐廳。
 ## Screen Photo - 專案畫面
-![image]https://github.com/Chia-HuiHsueh/my-restaurant-list/blob/main/images/screenshot-localhost-3000-1610863820802.png?raw=true
-![image]https://github.com/Chia-HuiHsueh/my-restaurant-list/blob/main/images/screenshot-localhost-3000-restaurants-7-1610863841413.png?raw=true
+![image](https://github.com/Chia-HuiHsueh/my-restaurant-list/blob/main/images/screenshot-localhost-3000-1610863820802.png?raw=true)
+![image](https://github.com/Chia-HuiHsueh/my-restaurant-list/blob/main/images/screenshot-localhost-3000-restaurants-7-1610863841413.png?raw=true)
 
 ## Installing - 專案安裝流程
 1.開啟終端機(Terminal)，Clone 此專案至本機電腦。
