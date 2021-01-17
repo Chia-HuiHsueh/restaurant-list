@@ -1,8 +1,6 @@
 # 台北美食地圖
-___
 此專案提供使用者查詢台北各類型餐廳的資訊，例如：地址、電話、評分、敘述...等。
 ## Features - 功能描述
-___
 * 使用者可以瀏覽全部所有餐廳。
 * 使用者可於首頁瀏覽餐廳名稱、類別、評分、照片。
 * 使用者可以瀏覽一家餐廳的詳細資訊，包括：餐廳地址、電話、敘述。
@@ -12,10 +10,10 @@ ___
 * 使用者輸入搜尋關鍵字，若無搜尋結果則跳出提示。
 * 使用者可以使用美食類別查詢餐廳。
 ## Screen Photo - 專案畫面
-___
+https://github.com/Chia-HuiHsueh/my-restaurant-list/blob/main/images/screenshot-localhost-3000-1610863820802.png?raw=true
+https://github.com/Chia-HuiHsueh/my-restaurant-list/blob/main/images/screenshot-localhost-3000-restaurants-7-1610863841413.png?raw=true
 
 ## Installing - 專案安裝流程
-___
 1.開啟終端機(Terminal)，Clone 此專案至本機電腦。
 ```
 git clone https://github.com/Chia-HuiHsueh/restaurant-list.git
@@ -43,7 +41,6 @@ cd restaurant-list
 ```
 
 ## Environment SetUp - 環境建置
-___
 Visual Studio Code - 開發環境
 Node.js - JavaScript 執行環境
 Express - 應用程式架構
